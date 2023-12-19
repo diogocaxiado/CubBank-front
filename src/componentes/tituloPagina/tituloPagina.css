@@ -1,0 +1,26 @@
+.tituloPagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    width: 9.6rem;
+    height: 2.1rem;
+}
+
+.tituloPagina img {
+    width: 2.1rem;
+    height: 2.1rem;
+    color: rgba(63, 63, 85, 1);
+}
+
+.tituloPagina h2 {
+    width: 6.5rem;
+    height: 2.1rem;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+
+    color: rgba(63, 63, 85, 1);
+}

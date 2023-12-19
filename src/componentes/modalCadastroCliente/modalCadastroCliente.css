@@ -1,0 +1,64 @@
+.modalCadastroCliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 50px;
+    width: 40rem;
+    height: 48rem;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 1)
+}
+
+.modalCadastroCliente div {
+    width: 100%;
+}
+
+.formularioCliente {
+    width: 100%;
+    padding: 0;
+}
+
+.cadastroCliente {
+    display: flex;
+    gap: 6px;
+    margin-top: 34px;
+    margin-bottom: 15px;
+}
+
+.cadastroCliente img {
+    width: 32px;
+    height: 32px;
+}
+
+.cadastroCliente h2     {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    color: #3F3F55;
+}
+
+.fechar {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.itens-duplos {
+    display: flex;
+    gap: 20px;
+}
+
+.btns {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.cidade input {
+    width: 20rem;
+}

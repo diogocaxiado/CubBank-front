@@ -1,0 +1,27 @@
+.modalSucesso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem   ;
+
+    position: relative;
+
+    width: 37rem;
+    height: 32rem;
+    border-radius: 30px;
+
+    background-color: white;
+}
+
+.modalSucesso img {
+    width: 8rem;
+}
+
+.modalSucesso strong {
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    color: #343447;
+}

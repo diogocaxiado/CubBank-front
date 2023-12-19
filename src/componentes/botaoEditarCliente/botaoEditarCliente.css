@@ -1,0 +1,23 @@
+.botaoEditarCliente {
+  display: flex;
+  cursor: pointer;
+  padding: 5px 60px;
+
+  color: var(--principais-verde-normal, #0e8750);
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 10px;
+  border: 1px solid var(--cinzas-cinza-6, #dedee9);
+  background: var(--cinzas-cinza-8, #f8f8f9);
+
+  background-color: rgba(248, 248, 249, 1);
+}
+
+.botaoEditarCliente img {
+  width: 18px;
+  height: 18px;
+}

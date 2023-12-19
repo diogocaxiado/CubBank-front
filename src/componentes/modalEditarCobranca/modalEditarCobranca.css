@@ -1,0 +1,190 @@
+.modalCadastroCobranca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+
+  padding: 3.125rem;
+  width: 37.5rem;
+  height: 47.375rem;
+
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 1);
+}
+
+.modalCadastroCobrancas div {
+  width: 100%;
+}
+
+.formularioCliente {
+  width: 100%;
+}
+
+.cadastroEditarCobranca {
+  display: flex;
+  gap: 6px;
+  margin-top: 2.125rem;
+  margin-bottom: 15px;
+}
+
+.cadastroEditarCobranca img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.cadastroEditarCobranca h1 {
+  font-family: Montserrat;
+  font-size: 1.6rem;
+  font-weight: 37.5rem;
+
+  color: #3f3f55;
+}
+
+.fechar {
+  cursor: pointer;
+  position: absolute;
+  right: 1.875rem;
+  top: 1.875rem;
+}
+
+.nome {
+  margin-top: 10px;
+}
+
+.inputName {
+  height: 70%;
+  width: 100%;
+}
+
+.descricao {
+  margin-top: 10px;
+}
+
+.inputDescricao {
+  height: 130%;
+  width: 100%;
+
+  font-family: Nunito;
+}
+
+.itens-duplos {
+  display: flex;
+  gap: 1.25rem;
+
+  margin-top: 10px;
+}
+
+.vencimento input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: large;
+  font-family: Nunito;
+
+  height: 3.75rem;
+  width: 14.375rem;
+
+  gap: 1px;
+}
+
+.valor {
+  position: relative;
+}
+
+.valor input {
+  height: 3.75rem;
+  width: 15rem;
+  padding-left: 2.875rem;
+
+  font-size: large;
+  font-family: Nunito, sans-serif;
+}
+
+.input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.semErro {
+  position: absolute;
+  text-align: center;
+
+  top: 2.5rem;
+  left: 1rem;
+
+  font-size: larger;
+  font-style: normal;
+  font-family: Nunito;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 10px;
+
+  font-family: Nunito;
+}
+
+.status label {
+  margin-bottom: 10px;
+}
+
+.check1 {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+
+  width: 31.25rem;
+  border-radius: 15px;
+  gap: 0.5rem;
+
+  background-color: #f0f0f5;
+}
+
+.check2 {
+  display: flex;
+  flex-direction: row;
+
+  width: 31.25rem;
+  border-radius: 15px;
+  gap: 0.5rem;
+
+  background-color: #f0f0f5;
+}
+
+.btns {
+  display: flex;
+  margin-top: 3.75rem;
+  margin-bottom: 1.25rem;
+
+  gap: 1.875rem;
+}
+
+.btn-cancelar {
+  width: 14.4375rem;
+  height: 2.125rem;
+
+  font-size: 1.125rem;
+  color: rgba(14, 135, 80, 1);
+  background: var(--cinzas-cinza-8, #f8f8f9);
+  border-radius: 10px;
+  border: 1px solid var(--cinzas-cinza-6, #dedee9);
+
+  cursor: pointer;
+}
+
+.btn-aplicar {
+  width: 14.4375rem;
+  height: 2.125rem;
+
+  font-size: 1.125rem;
+  background-color: rgba(218, 1, 117, 1);
+  color: rgba(248, 248, 249, 1);
+  border-radius: 10px;
+  border: none;
+
+  cursor: pointer;
+}

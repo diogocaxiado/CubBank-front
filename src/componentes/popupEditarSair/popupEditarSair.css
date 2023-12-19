@@ -1,0 +1,28 @@
+.botaoEditarSair {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 92px;
+    height: 59px;
+
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.botaoEditarSair div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.botaoEditarSair div span {
+    font-family: Nunito;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    color: #747488;
+}

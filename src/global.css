@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:is(form) {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 0 50px;
+}
+
+.ModalAberto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 0;
+  z-index: 1;
+
+  background-color: #919A964D;
+}
+
+.ModalAbertoGlobal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+  background-color: #919A964D;
+}
+
+
+.mensagemErro {
+  font-family: Nunito, sans-serif;
+  font-size: 1rem;
+}
+
+.containerPagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: #F8F8F9;
+}
+
+.paginaCabecalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  position: sticky;
+  top: 0;
+
+  width: 100%;
+  height: fit-content;
+}
+
+.indicadorAtual {
+  display: flex;
+  gap: 1rem;
+
+  position: absolute;
+  bottom: 10%;
+}
+
+.tabelaSemDados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  top: 30%;
+  left: 0;
+  
+  width: 100%;
+}
+
+.tabelaSemDadosTexto {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 3rem;
+}
+
+.tabelaSemDados h2 {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 600;
+
+  color: #F08889;
+}
+
+.tabelaSemDados h3 {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+
+  color: var(--Cinzas-Cinza-4, #9B9BB2);
+}
+
+#clienteVermelho {
+  margin: 2rem 0 0 20rem;
+}
+
+#fecharVermelho {
+  position: absolute;
+  bottom: 6rem;
+  right: 42%;
+}

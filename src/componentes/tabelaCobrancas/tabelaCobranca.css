@@ -1,0 +1,53 @@
+.tabelaCobranca {
+  height: 38rem;
+}
+
+.tituloComImagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  width: 100%;
+  border: none;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow {
+  width: 100%;
+  border: none;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue {
+  width: 100%;
+  border: none;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redLetter {
+  color: rgba(151, 29, 29, 1);
+}
+
+.yellowLetter {
+  color: rgba(197, 166, 5, 1);
+}
+
+.blueLetter {
+  color: rgba(31, 167, 175, 1);
+  background-color: rgba(238, 246, 246, 1);
+  width: 90px;
+  border: none;
+  border-radius: 2em;
+}
+

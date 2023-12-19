@@ -1,0 +1,41 @@
+.cabecalhoCobrancas {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 23rem;
+    height: 5rem;
+    padding: 23px 40px;
+
+    border-radius: 30px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.cabecalhoCobrancas div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+
+    margin: 0 24px;
+}
+
+.cabecalhoCobrancas div h2 {
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+    color: #3F3F55;
+}
+
+.cabecalhoCobrancas div span {
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+    color: #3F3F55;
+}
+
+.cabecalhoCobrancas img {
+    width: 38px;
+}

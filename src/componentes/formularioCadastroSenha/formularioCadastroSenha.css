@@ -1,0 +1,153 @@
+.formularioCadastroSucesso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  padding: 0 300px;
+}
+
+.formularioCadastroSucesso a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 10px;
+
+  font-family: Nunito;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-decoration: none;
+  
+  padding: 4px 40px;
+  margin: 18px 0;
+
+  color: #F8F8F9;
+  background-color: #DA0175;
+}
+
+.formularioCadastroSenha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 70vw;
+    height: 100vh;
+  }
+  
+  .formularioCadastroSenha h1 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+    color: #343447;
+  }
+  
+  form input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+
+    width: 370px;
+    height: 20px;
+    padding: 10px 5px;
+  
+    border-radius: 8px;
+    border: 1px solid var(--gray-300, #d0d5dd);
+    background: #fff;
+  
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  }
+  
+  form label {
+    font-family: Nunito;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    color: #344054;
+  }
+
+  .formulario-cadastro-botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulario-cadastro-botao button {
+    text-decoration: none;
+  
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+
+    color: #f8f8f9;
+  }
+  
+  .formularioCadastroSenha span{
+    font-family: Nunito;
+    font-size: 1.1rem;
+    font-weight: 400;
+    
+    color:  #3F3F55;
+  }
+
+  .formularioCadastroSenha span a {
+    font-family: Nunito;
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+    color: #DA0175;
+  }
+  
+  .modal-sucesso-secao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-sucesso {
+    width: 600px;
+    height: 512px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  
+    border-radius: 30px;
+    background: var(--cinzas-cinza-7, #f0f0f5);
+  }
+  
+  .modal-sucesso image {
+    width: 104px;
+    height: 104px;
+  }
+  
+  .modal-sucesso p {
+    color: var(--cinzas-cinza-1, #343447);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .cadastro-erro {
+    margin-top: 0.5rem;
+  }
+  
+  .cadastro-erro span{
+    font-family: Nunito;
+    font-size: 1rem;
+    font-weight: 600;
+  
+    color: #da0108;
+  }

@@ -1,0 +1,28 @@
+.paginaCobrancas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.paginaCobrancasInterno {
+    width: 100%;
+    padding: 0 10.5rem;
+}
+
+.barraGeral {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+.barraDireita {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tabelaCobrancas {
+    border-radius: 30px;
+}

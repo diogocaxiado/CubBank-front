@@ -1,0 +1,22 @@
+.paginaHome {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 33rem;
+}
+
+.tabelas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+
+    width: 80%;
+    margin-top: 9px;
+}
+
+.posicaoCabecalhoCobranca, .posicaoTabelaCobranca, .posicaoTabelaClientes {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}

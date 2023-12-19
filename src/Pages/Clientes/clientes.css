@@ -1,0 +1,28 @@
+.paginaClientes {
+  width: 100vw;
+  min-height: 100vh;
+
+  background-color: #f8f8f9;
+}
+
+.paginaClientesInterno {
+  padding: 0 15.6rem;
+}
+
+.barraGeral {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 0 2.5rem 0;
+}
+
+.barraDireita {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tabelaClientes {
+  border-radius: 30px;
+}

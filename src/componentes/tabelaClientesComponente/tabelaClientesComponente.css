@@ -1,0 +1,55 @@
+.clientesComponenteHome {
+    background-color: rgba(255, 255, 255, 1);
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.tabelaComponenteHome {
+    min-width: 37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalhoComponenteHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.nomeTabelaComponenteHome {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.nomeTabelaComponenteHome h2 {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+    color: #3F3F55;
+}
+.fundoQuantidade {
+    padding: 0.1rem 1rem;
+    border-radius: 8px;
+}
+
+.rodapeComponenteHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.rodapeComponenteHome a {
+    font-family: Nunito;
+    font-size: 1.1rem;
+    
+    color: #DA0175;
+}

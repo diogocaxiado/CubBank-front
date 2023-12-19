@@ -1,0 +1,58 @@
+.detalhesDosClientes {
+  width: 100vw;
+  min-height: 100vh;
+
+  background-color: #f8f8f9;
+}
+
+.infoDetalhesClientes {
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 25px;
+}
+
+.perfil img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.perfil h1 {
+  font-family: Montserrat;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #3F3F55;
+}
+
+.clienteEscolhido {
+  align-items: center;
+  gap: 20px;
+  padding: 25px 250px;
+}
+
+.paginaInternoDetalhesCliente {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.ModalEditarAberto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  background-color: #919A964D;
+}

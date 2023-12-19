@@ -1,0 +1,99 @@
+.modalEditarUsuario {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    width: 34rem;
+    border-radius: 30px;
+
+    background-color: white;
+}
+
+.modal-fechar { 
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    cursor: pointer;
+}
+
+.modalTitulo {
+    margin: 3rem 0 1rem;
+    
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    
+    color: #343447;
+}
+
+.modalEditarUsuario form {
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    padding: 0 50px;
+}
+
+form label {
+    padding: 15px 0 2px;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-weight: 600;
+
+    color: #344054;
+}
+
+.campo-cpf-telefone {
+    display: flex;
+    gap: 24px;
+}
+
+.campo-cpf-telefone div {
+    display: flex;
+    flex-direction: column;
+}
+
+#input-cpf, #input-telefone {
+    padding-left: 40px;
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.olho {
+    position: absolute;
+    top: 25%;
+    right: 1rem;
+
+    width: 1.8rem;
+}
+
+.botao-aplicar {
+    display: flex;
+    justify-content: center;
+    margin: 26px 0;
+}
+
+.botao-aplicar button{
+    width: 12rem;
+    height: 2.4rem;
+    cursor: pointer;
+
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+
+    border: none;
+    border-radius: 10px;
+    
+    background-color: #DA0175;
+    color: #F8F8F9;
+
+}

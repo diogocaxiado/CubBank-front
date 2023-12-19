@@ -1,0 +1,51 @@
+.dados {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+.parte-superior {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.parte-superior h2 {
+  color: #3f3f55;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.dados-superior {
+  display: flex;
+  gap: 100px;
+  padding: 5px 20px 15px;
+}
+
+.dados-inferior {
+  display: flex;
+  gap: 100px;
+  padding: 15px 20px;
+}
+
+.titulo h2 {
+  color: var(--cinzas-cinza-2, #3f3f55);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.titulo p {
+  color: var(--cinzas-cinza-2, #3f3f55);
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}

@@ -1,0 +1,79 @@
+.tabela-cobranca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 18rem;
+}
+
+.cabecalhoTabela {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25rem;
+
+  width: 100%;
+  padding: 24px 14px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+  background-color: #fff;
+  color: var(--cinzas-cinza-2, #3f3f55);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.rodapeTabela {
+  width: 100%;
+
+}
+
+.redLetter {
+  width: 90px;
+  border: none;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(151, 29, 29, 0.2);
+}
+
+.greenLetter {
+  width: 90px;
+  border: none;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(31, 167, 175, 0.2);
+}
+
+.yellowLetter {
+  width: 90px;
+  border: none;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(247, 234, 173);
+}
+
+.greenLetter {
+  color: #1fa7af;
+}
+
+.redLetter {
+  color: #971d1d;
+}
+
+.yellowLetter {
+  color: #c5a605;
+}
+
+.icone-Cobranca {
+  float: left;
+}

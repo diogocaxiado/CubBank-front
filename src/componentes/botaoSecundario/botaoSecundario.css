@@ -1,0 +1,17 @@
+.botaoSecundario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 15.6rem;
+    height: 2.1rem;
+    border: 2px solid rgba(222, 222, 233, 0.4); 
+    border-radius: 10px;
+
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    color: rgba(14, 135, 80, 1);
+    background-color: rgba(248, 248, 249, 1);
+}

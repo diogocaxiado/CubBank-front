@@ -1,0 +1,74 @@
+.paginaCadastro {
+  display: flex;
+}
+
+.pagina-cadastro {
+  display: flex;
+}
+
+.pagina-cadastro aside {
+  width: 30vw;
+  min-width: 500px;
+  height: 100vh;
+  background: #f0f0f5;
+}
+
+.cadastro-etapas {
+  display: flex;
+  padding: 175px 50px 24px;
+}
+
+.cadastro-topicos h1 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+
+  color: #0e8750;
+}
+
+.cadastro-topicos h2 {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 600;
+ 
+  color:#3f3f55;
+}
+
+.topic-inform-data {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 5px;
+}
+
+.topic-inform-password {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 5px;
+}
+
+.topic-sucess {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.topic-sucess h2 {
+  padding-left: 57px;
+}
+
+.img-topic {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.img-step-topic {
+  display: flex;
+  align-items: start;
+  gap: 39px;
+  padding-left: 14px;
+}
+
+

@@ -1,0 +1,41 @@
+.tabela-cliente {
+  height: 38rem;
+}
+
+.red {
+  width: 100%;
+  border: none;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  width: 100%;
+  border: none;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greenLetter {
+  color: #1fa7af;
+  padding: 0.2rem;
+}
+
+.redLetter {
+  color: #971d1d;
+}
+  
+.cobrancaImagem {
+  display: flex;
+  justify-content: center;
+}
+
+.tabela-cliente a, .tabela-cliente td {
+  text-decoration: none;
+  font-size: 14px ;
+  color: #747488;
+}
